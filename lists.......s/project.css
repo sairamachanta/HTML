@@ -1,0 +1,98 @@
+.topnav{display: flex;
+    justify-content: end;
+    border-right: 2px solid white;
+    padding-right: 10px;
+    text-align: center;
+
+}
+span{
+    border-left: 2px solid white;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+body{
+    background-image: url(../img/bgimg.jpeg);
+    
+
+    
+}
+.mainnav{
+    display: flex;
+    justify-content: end;
+    color: aqua;
+    background-color: rgba(49, 53, 58, 0.5);
+    margin-top: 20px;
+    padding: 10px;
+    
+
+}
+
+
+.a{
+    display: flex;
+    justify-content: end;
+    margin-left: 70px;
+    border-left: 2px solid red;
+    
+
+}
+.logo{
+    position: relative;
+
+}
+#logoimg{
+    position: absolute;
+    top: -80px;
+    left: 50px;
+    
+}
+.text{
+    background-color: rgba(171, 178, 187, 0.5);
+    padding:50px 30px;
+    
+}
+h1{
+    margin: 0%;
+}
+.tet{
+    color: white;
+
+}
+.main4{
+    display: flex;
+    background-color:rgba(0, 21, 21, 0.796);
+    color: white;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    text-align:top;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(147, 176, 176, 0.796);
+}
+.pad{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.c1{
+    padding: 10px;
+}
+a{
+    color: white;
+}
+.a:hover{
+    color: white;
+    background-color: aqua;
+}
+.c1 img{
+    width: 100%;
+}
+
+

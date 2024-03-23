@@ -1,0 +1,33 @@
+.main{
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(183, 183, 206);
+}
+.a,.b,.c,.d{
+    width: 25%;
+    margin: -2px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.a1,.b1,.c1,.d1{
+    width: 20%;
+    display: inline block;
+    box-sizing: border-box;
+    margin: -2px;
+
+}
+.a2,.b2,.c2,.d2{width: 80%;
+    display: inline block;
+    box-sizing: border-box;
+    margin: -2px;
+
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.a3 p,.b3 p,.c3 p,.d3 p{ display: inline-block;
+
+}
+    

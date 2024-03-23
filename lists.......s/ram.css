@@ -1,0 +1,203 @@
+body{
+    margin: 0%;
+}
+.a{
+    background-color: rgb(115, 82, 147);
+    position: sticky;
+    top:0px;
+    padding: 20px;
+}
+.a1 img{
+    width: 50px;
+    vertical-align: middle;
+    padding: 20px;
+    border-radius:50% ;
+}
+.a1 h3{
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.a1,.a2,.a3{
+    display: inline-block;
+    width: 33%;
+    margin: -2px;
+    box-sizing: border-box;
+}
+.a3 img{
+    width: 50px;
+    vertical-align: middle;
+    border-radius: 50%;
+
+}
+.a3 button{
+    background-color: rgb(65, 65, 171);
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    border-color: aliceblue;
+    width: 150px;
+
+}
+.a2 li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.a3{
+    padding: 5px;
+    text-align: right;
+}
+li:hover{
+    background-color: white;
+}
+ .a3 img:hover{
+    transform: rotate(360deg);
+    transition:1s;
+    
+
+}
+.a1 img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.card{
+    width: 22%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(14, 15, 15);
+    color: white;
+    border:5px solid  rgb(72, 71, 71);
+    border-radius: 10%;
+    position: relative;
+}
+
+.main2{
+    background-color: rgb(18, 11, 11);
+    padding: 30px;
+}
+#s1{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(78, 4, 4);
+    
+}
+#s2{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(1, 38, 1);
+
+}
+#s3{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgb(26, 152, 201);
+
+}
+#s4{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(171, 2, 2);
+
+}
+#s5{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(15, 15, 117);
+
+}
+#s6{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgba(9, 161, 221, 0.855);
+
+}
+#s7{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(232, 8, 83);
+
+}
+#s8{
+    font-size: 30px;
+    position: absolute;
+    top:-20px;
+    left: 25px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgb(21, 152, 212) ;
+
+}
+.sm{
+    background-color: rgb(18, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+
+}
+a{
+    color: green;
+}
+.ballrot img{
+    animation-name:rotate;
+    animation-duration: 60s;
+    animation-delay: 0s;
+
+}
+@keyframes rotate{
+    0%{transform:rotate(0deg);}
+    25%{transform:rotate(90deg);}
+    50%{transform:rotate(180deg);}
+    100%{transform:rotate(360deg);}
+
+}
+.ballrot img{
+    width: 200px;
+    padding: 50px;
+
+}
+.ballrot{
+    background-color: black;
+}
+.ballrot h1,p{
+    color: white;
+}

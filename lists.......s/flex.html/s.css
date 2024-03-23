@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px 10px;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    background-color: darkcyan;
+}
+#textbox{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+button{
+    border:2px solid ;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+.icb{
+    position: relative;
+
+}
+#icon1{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 10px;
+}
+.search{
+    position: relative;
+}
+#sc{
+    position: absolute;
+    right:480px;
+
+}
+#textbox{
+    padding: 0px 30px;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(102, 102, 131);
+    color: white;
+    
+
+}
+.main3{
+    margin-top:20px ;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/288d89a1a3dae3e8.jpg?q=20);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.main4{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
